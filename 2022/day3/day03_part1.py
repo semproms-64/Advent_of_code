@@ -16,8 +16,9 @@ def processRucksack(line):
     fCompartiment = slice(0,half)
     sCompartiment = slice(half, len(line))
     
-    commonLetters = set(str(line[fCompartiment])).intersection(str(line[sCompartiment]))
+    commonLetters = set(str(line[fCompartiment])) & set(str(line[sCompartiment]))
     letter = str(list(commonLetters)[0])
+    print(letter)
     
     if letter.isupper():
         value = int(alphabet_position(letter)) + length_al

@@ -4,7 +4,7 @@ totalPoints = 0
 dictionary_player = {
     'X' : 1, #Rock A
     'Y' : 2, #Paper B
-    'Z' : 3,  #Scissors C
+    'Z' : 3  #Scissors C
 }
 
 def getResultRound(chain):
