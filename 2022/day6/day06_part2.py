@@ -12,4 +12,4 @@ def processingMessage(elements, size):
 
 
 for line in file:
-    print(processingMessage(line, 4))
+    print(processingMessage(line, 14))
